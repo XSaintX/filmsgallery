@@ -29,7 +29,7 @@ export default function NewMovies() {
             <Col span="24"
                 style={{ textAlign: "center", marginTop: 25 }}>
                 <h1 style={{ fontSize: 35, fontWeight: "bold" }}>
-                    Ultimos lanzamientos
+                    Last movies
                 </h1>
             </Col>
             {movieList.results ? (
