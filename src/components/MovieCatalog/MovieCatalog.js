@@ -7,11 +7,11 @@ import Icon from '@ant-design/icons';
 
 export default function MovieCatalog(props) {
     const { movies: { results } } = props;
-    return results.map(movie => (
+    return <Row>{results.map(movie => (
         <Col key={movie.id} xs="4" className="movie-catalog">
             <MovieCard movie={movie} />
         </Col>
-    ));
+    ))}</Row>;
 }
 
 function MovieCard(props) {
